@@ -15,12 +15,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo>h2 {
-    font-family: var(--secondary--font);
+    font-family: var(--third--font);
     font-size: 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .logo>p {
@@ -40,6 +41,12 @@
     font-weight: 700;
     letter-spacing: 0.5px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.nav--container>ul>li:hover {
+    color: var(--gold);
+    font-weight: 700;
 }
 
 ul>li:nth-child(1) {

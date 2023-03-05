@@ -30,7 +30,7 @@ export const HomeSlider = () => {
                     slot='container-start'
                     className='parallax-bg'
                     style={{
-                        'background-image':
+                        'backgroundImage':
                             'url(https://free4kwallpapers.com/uploads/originals/2017/03/13/beach-resort-wallpaper.jpg)',
                     }}
                     data-swiper-parallax='-23%'
