@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 :root {
     --primary--font: 'Lato', sans-serif;
     --secondary--font: 'Mynerve', sans-serif;
-    --third--font: 'Caveat', sans-serif;
+    --third--font: 'Sacramento', sans-serif;
+    --gold: #d39229;
 }
 
 * {
@@ -23,4 +24,10 @@ html {
 body {
     font-family: var(--primary--font);
     overflow-x: hidden;
+}
+
+/* TO SET ANIMATION DURATION FOR UP TO 4000MS */
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
 }
