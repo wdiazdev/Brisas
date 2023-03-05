@@ -7,6 +7,8 @@ import { Pagination, Navigation, Parallax } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+// CSS Styles
+import '../Styles/HomeSlider.css';
 
 export const HomeSlider = () => {
     return (

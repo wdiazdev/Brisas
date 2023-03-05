@@ -1,7 +1,8 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
 import parallaximg1 from '../assets/parallaximg1.jpg';
-
+import { GuestCards } from './GuestCards';
+import '../Styles/GuestInfo.css';
 
 const ImgOne = () => (
     <Parallax bgImage={parallaximg1} strength={1000} className='home--parallax'>
@@ -36,13 +37,7 @@ export const GuestInfo = () => {
 
             <ImgOne />
 
-            <div className='guest--info--cards'>
-
-                <div className='guest--info--card'>
-
-                </div>
-
-            </div>
+            <GuestCards />
 
         </div>
 

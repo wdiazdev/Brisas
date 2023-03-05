@@ -24,6 +24,7 @@ html {
 body {
     font-family: var(--primary--font);
     overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 /* TO SET ANIMATION DURATION FOR UP TO 4000MS */
