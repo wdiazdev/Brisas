@@ -61,7 +61,7 @@ export const HomeSlider = () => {
                             </p>
                         </div>
 
-                        <button className='main--btn'>BOOK NOW</button>
+                        <button className='guest--card--btn'>BOOK NOW</button>
 
                     </div>
 
@@ -87,7 +87,7 @@ export const HomeSlider = () => {
                             </p>
                         </div>
 
-                        <button className='main--btn' data-swiper-parallax='-300'>LEARN MORE</button>
+                        <button className='guest--card--btn' data-swiper-parallax='-300'>LEARN MORE</button>
 
                     </div>
 
@@ -112,7 +112,7 @@ export const HomeSlider = () => {
                             </p>
                         </div>
 
-                        <button className='main--btn' data-swiper-parallax='-300'>LEARN MORE</button>
+                        <button className='guest--card--btn' data-swiper-parallax='-300'>LEARN MORE</button>
 
                     </div>
 

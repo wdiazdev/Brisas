@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 import parallaximg1 from '../assets/parallaximg1.jpg';
 import { GuestCards } from './GuestCards';
 import '../Styles/GuestInfo.css';
+import CasinoBanner from '../assets/casinohomebanner.jpg';
 
 const ImgOne = () => (
     <Parallax bgImage={parallaximg1} strength={1000} className='home--parallax'>
@@ -38,6 +39,28 @@ export const GuestInfo = () => {
             <ImgOne />
 
             <GuestCards />
+
+            <div className='casino--banner--container'>
+
+                <div className='casino-overlay'></div>
+
+                <img src={CasinoBanner} alt='Casino' />
+
+                <div className='casino--banner-info'>
+
+                    <h2>Gaming</h2>
+                    <p>
+                        The Brisas Casino Punta Cana rocks with over 200 of your
+                        favorite slot and video poker machines. We have all your old
+                        favorites, starting with penny machines and go up in denomination
+                        from there.
+                    </p>
+
+                    <button className='guest--card--btn'>Learn More</button>
+
+                </div>
+
+            </div>
 
         </div>
 
